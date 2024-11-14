@@ -51,6 +51,7 @@
       color: var(--default-color);
       background-color: var(--background-color);
       font-family: var(--default-font);
+      text-align: justify;
     }
     
     a {
@@ -478,12 +479,21 @@
         display: block;
       }
     }
+
+    #sitename{
+        color:#526E48;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(107%);
+        }
+
+    }
     
     /*--------------------------------------------------------------
     # Global Footer
     --------------------------------------------------------------*/
     .footer {
-      color: var(--default-color);
+      color: #526E48;
       background-color: var(--background-color);
       font-size: 14px;
       padding: 40px 0;
@@ -505,9 +515,9 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+      border: 1px solid #526E48;
       font-size: 16px;
-      color: color-mix(in srgb, var(--default-color), transparent 50%);
+      color: #526E48;
       margin: 0 5px;
       transition: 0.3s;
     }
