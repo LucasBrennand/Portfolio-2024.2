@@ -1059,6 +1059,9 @@
       text-align: center;
       transition: 0.3s;
       border-radius: 5px;
+      &:hover {
+        transform: scale(120%);
+      }
     }
     
     .services .service-item .icon {
@@ -1086,7 +1089,7 @@
     
     .services .service-item .icon svg path {
       transition: 0.5s;
-      fill: color-mix(in srgb, var(--default-color), transparent 95%);
+      
     }
     
     .services .service-item h3 {
