@@ -218,6 +218,7 @@
         document
           .querySelector(".progress-bar-wrap")
           .style.setProperty("#676772");
+        document.getElementById("#footer").style.backgroundColor = "red";
   
       } else {
         root.style.setProperty("--background-color", "");
@@ -248,5 +249,23 @@
       document.querySelector('footer').textContent = 'Rodapé em Português';
       // Add more translations as needed
     });
+
+    document.querySelector(".php-email-form").addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the default form submission
+      grecaptcha.ready(function () {
+          grecaptcha.execute('6Ldw84UqAAAAAE8K9A6YhcQChxn-M6OYYBTlcj3n', { action: 'submit' }).then(function (token) {
+              // Add the token to the form
+              const form = event.target;
+              const recaptchaResponse = document.createElement("input");
+              recaptchaResponse.type = "hidden";
+              recaptchaResponse.name = "g-recaptcha-response";
+              recaptchaResponse.value = token;
+              form.appendChild(recaptchaResponse);
+
+              // Submit the form
+              form.submit();
+          });
+      });
+  });
     
 })();
