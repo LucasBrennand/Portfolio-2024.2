@@ -239,8 +239,12 @@
 
     document.getElementById('language-btn').addEventListener('click', function() {
       // Translate the page content to Portuguese
-      document.querySelector('h1').textContent = 'Título em Português';
-      document.querySelector('p').textContent = 'Este é um parágrafo em português.';
+      document.querySelectorAll('h1').forEach(el => el.textContent = 'Título em Português');
+      document.querySelectorAll('h2').forEach(el => el.textContent = 'Subtítulo em Português');
+      document.querySelectorAll('h3').forEach(el => el.textContent = 'Subtítulo em Português');
+      document.querySelectorAll('p').forEach(el => el.textContent = 'Este é um parágrafo em português.');
+      document.querySelectorAll('a').forEach(el => el.textContent = 'Link em Português');
+      document.querySelectorAll('button').forEach(el => el.textContent = 'Botão em Português');
       document.querySelector('footer').textContent = 'Rodapé em Português';
       // Add more translations as needed
     });
