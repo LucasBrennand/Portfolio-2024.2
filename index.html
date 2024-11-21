@@ -54,10 +54,7 @@
             </nav>
 
             <div class="language-selection">
-                <select name="language" id="language">
-                    <option value="en">EN</option>
-                    <option value="pt">PT</option>
-                </select>
+                <button id="language-btn">Change Language to Portuguese</button>
             </div>
 
             <div class="header-social-links">
@@ -267,7 +264,7 @@
 
             </div>
 
-           
+
         </section>
 
         <section id="stats" class="stats section">
@@ -331,7 +328,7 @@
                 <h2>Resume</h2>
                 <p>All of my experiences so far</p>
             </div>
-            
+
             <div class="container">
 
                 <div class="row">
@@ -415,99 +412,109 @@
 
                     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Card</li>
-                        <li data-filter=".filter-branding">Web</li>
+                        <li data-filter=".filter-2022">2022</li>
+                        <li data-filter=".filter-2023">2023</li>
+                        <li data-filter=".filter-2024">2024</li>
                     </ul>
 
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="Images/rpg.PNG" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <img style="width: 500px; height: 200px;" src="Images/rpg.PNG" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Java RPG</h4>
                                 <p>My first ever project, it's a turn based RPG game made in Java</p>
-                                <a href="https://github.com/LucasBrennand/Projeto-RPG" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <a href="https://github.com/LucasBrennand/Projeto-RPG" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="Images/database.PNG" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="Images/database.PNG" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
                                 <h4>Python to SQL connection</h4>
-                                <p>SQL project where I made a connection from Python to SQL, and can execute SQL commands using Python</p>
-                                <a href="https://github.com/LucasBrennand/ProjetoBD2" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <p>SQL project where I made a connection from Python to SQL, and can execute SQL
+                                    commands using Python</p>
+                                <a href="https://github.com/LucasBrennand/ProjetoBD2" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="Images/bg3.PNG" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="Images/bg3.PNG" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>BG3 Companion Builds</h4>
                                 <p>A quick guide for companion builds in Baldur's Gate 3</p>
-                                <a href="https://lucasbrennand.github.io/BG3CompanionBuilds/" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <a href="https://lucasbrennand.github.io/BG3CompanionBuilds/" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="Images/frontend.PNG" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="Images/frontend.PNG" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
                                 <h4>Front-End Course</h4>
                                 <p>Here's a Front-End course that i've been watching with over 60+ hours of content</p>
-                                <a href="https://github.com/LucasBrennand/Udemy-Frontend-Course.git" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <a href="https://github.com/LucasBrennand/Udemy-Frontend-Course.git" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="Images/intruder.jpg" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="Images/intruder.jpg" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
                                 <h4>Surveillance System</h4>
-                                <p>A surveillance system using computer vision to track and alert about intruders in a restricted area</p>
-                                <a href="https://github.com/LucasBrennand/SuspiciousMovement" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <p>A surveillance system using computer vision to track and alert about intruders in a
+                                    restricted area</p>
+                                <a href="https://github.com/LucasBrennand/SuspiciousMovement" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="Images/agendamento.PNG" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Agenda</h4>
-                                <p>An agenda that allows you to send a form to an email and a database</p>
-                                <a href="https://lucasbrennand.github.io/AgendamentoIvici/" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
+                       
 
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="Images/Blackjack.PNG" class="img-fluid" alt="">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <img style="width: 500px; height: 200px;" src="Images/Blackjack.PNG" class="img-fluid"
+                                alt="">
                             <div class="portfolio-info">
                                 <h4>Blackjack JS</h4>
                                 <p>Blackjack made in Javascript</p>
-                                <a href="https://github.com/LucasBrennand/Blackjack" target="_blank" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <a href="https://lucasbrennand.github.io/Blackjack/" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <img style="width: 500px; height: 200px;" src="Images/weather.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Weather Website</h4>
+                                <p>A simple website I made that let's you search the current weather of a city</p>
+                                <a href="https://projeto-site-qovbr4idu-lucasbrennand.vercel.app" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <button>
-                            <img src="Images/pepe.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>What does this do?</h4>
-                            </div>
+                            <button id="surprise-btn" style="background-color: transparent; border: none;"> 
+                                <img style="width: 500px; height: 200px;" src="Images/pepe.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="portfolio-info">
+                                    <h4>What does this do?</h4>
+                                </div>
+                            </button>
                         </div>
-                        </button>
+
 
                     </div>
 

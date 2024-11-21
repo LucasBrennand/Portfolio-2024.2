@@ -53,6 +53,11 @@
       font-family: var(--default-font);
       text-align: justify;
     }
+
+    body.alternate-color-scheme {
+      background-color: black;
+      color: white;
+    }
     
     a {
       color: var(--accent-color);
