@@ -180,6 +180,12 @@
     .header .header-social-links a i {
       line-height: 0px;
     }
+
+    .language-btn{
+      background-color: transparent; 
+      border: none;
+  
+    }
     
     @media (max-width: 1200px) {
       .header .logo {
@@ -194,6 +200,7 @@
         order: 3;
       }
     }
+
 
     
     

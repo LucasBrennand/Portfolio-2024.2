@@ -219,7 +219,6 @@
           .querySelector(".progress-bar-wrap")
           .style.setProperty("#676772");
         document.getElementById("#footer").style.backgroundColor = "red";
-  
       } else {
         root.style.setProperty("--background-color", "");
         root.style.setProperty("--default-color", "");
@@ -238,34 +237,34 @@
       }
     });
 
-    document.getElementById('language-btn').addEventListener('click', function() {
-      // Translate the page content to Portuguese
-      document.querySelectorAll('h1').forEach(el => el.textContent = 'Título em Português');
-      document.querySelectorAll('h2').forEach(el => el.textContent = 'Subtítulo em Português');
-      document.querySelectorAll('h3').forEach(el => el.textContent = 'Subtítulo em Português');
-      document.querySelectorAll('p').forEach(el => el.textContent = 'Este é um parágrafo em português.');
-      document.querySelectorAll('a').forEach(el => el.textContent = 'Link em Português');
-      document.querySelectorAll('button').forEach(el => el.textContent = 'Botão em Português');
-      document.querySelector('footer').textContent = 'Rodapé em Português';
-      // Add more translations as needed
+    document.getElementById('language-en').addEventListener('click', function() {
+      // Exemplo de mudança de conteúdo
+      document.getElementById('header-title').textContent = 'Título em Português';
+      document.getElementById('header-description').textContent = 'Descrição em Português';
+      // Adicione mais mudanças conforme necessário
     });
 
-    document.querySelector(".php-email-form").addEventListener("submit", function (event) {
+  document
+    .querySelector(".php-email-form")
+    .addEventListener("submit", function (event) {
       event.preventDefault(); // Prevent the default form submission
       grecaptcha.ready(function () {
-          grecaptcha.execute('6Ldw84UqAAAAAE8K9A6YhcQChxn-M6OYYBTlcj3n', { action: 'submit' }).then(function (token) {
-              // Add the token to the form
-              const form = event.target;
-              const recaptchaResponse = document.createElement("input");
-              recaptchaResponse.type = "hidden";
-              recaptchaResponse.name = "g-recaptcha-response";
-              recaptchaResponse.value = token;
-              form.appendChild(recaptchaResponse);
+        grecaptcha
+          .execute("6Ldw84UqAAAAAE8K9A6YhcQChxn-M6OYYBTlcj3n", {
+            action: "submit",
+          })
+          .then(function (token) {
+            // Add the token to the form
+            const form = event.target;
+            const recaptchaResponse = document.createElement("input");
+            recaptchaResponse.type = "hidden";
+            recaptchaResponse.name = "g-recaptcha-response";
+            recaptchaResponse.value = token;
+            form.appendChild(recaptchaResponse);
 
-              // Submit the form
-              form.submit();
+            // Submit the form
+            form.submit();
           });
       });
-  });
-    
+    });
 })();

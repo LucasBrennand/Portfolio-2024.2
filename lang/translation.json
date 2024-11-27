@@ -1,0 +1,14 @@
+{
+  "en": {
+    "title": "Title in English",
+    "paragraph": "This is a paragraph in English.",
+    "footer": "Footer in English",
+    "button": "Change Language to Portuguese"
+  },
+  "pt": {
+    "title": "Título em Português",
+    "paragraph": "Este é um parágrafo em português.",
+    "footer": "Rodapé em Português",
+    "button": "Mudar idioma para Inglês"
+  }
+}

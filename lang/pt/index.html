@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CV Lucas Brennand</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link rel="icon" href="./../../Images/pepe.jpg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+        integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css"
+        integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link href="../../style.css" rel="stylesheet">
+
+</head>
+
+<body id class="index-page">
+
+    <header id="header" class="header d-flex align-items-center light-background sticky-top">
+        <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <img src="pepe.jpg" alt="">
+                <h1 class="sitename" id="sitename">Lucas Brennand</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div id="indicator"></div>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <div class="language-selection">
+                <button id="language-en" class="language-btn">
+                    <svg viewBox="0 0 64 64" width="30px" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                        class="iconify iconify--emojione" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M48 6.6C43.3 3.7 37.9 2 32 2v4.6h16z" fill="#ed4c5c"> </path>
+                            <path d="M32 11.2h21.6C51.9 9.5 50 7.9 48 6.6H32v4.6z" fill="#ffffff"> </path>
+                            <path d="M32 15.8h25.3c-1.1-1.7-2.3-3.2-3.6-4.6H32v4.6z" fill="#ed4c5c"> </path>
+                            <path d="M32 20.4h27.7c-.7-1.6-1.5-3.2-2.4-4.6H32v4.6" fill="#ffffff"> </path>
+                            <path d="M32 25h29.2c-.4-1.6-.9-3.1-1.5-4.6H32V25z" fill="#ed4c5c"> </path>
+                            <path d="M32 29.7h29.9c-.1-1.6-.4-3.1-.7-4.6H32v4.6" fill="#ffffff"> </path>
+                            <path d="M61.9 29.7H32V32H2c0 .8 0 1.5.1 2.3h59.8c.1-.8.1-1.5.1-2.3c0-.8 0-1.6-.1-2.3"
+                                fill="#ed4c5c"> </path>
+                            <path d="M2.8 38.9h58.4c.4-1.5.6-3 .7-4.6H2.1c.1 1.5.4 3.1.7 4.6" fill="#ffffff"> </path>
+                            <path d="M4.3 43.5h55.4c.6-1.5 1.1-3 1.5-4.6H2.8c.4 1.6.9 3.1 1.5 4.6" fill="#ed4c5c">
+                            </path>
+                            <path d="M6.7 48.1h50.6c.9-1.5 1.7-3 2.4-4.6H4.3c.7 1.6 1.5 3.1 2.4 4.6" fill="#ffffff">
+                            </path>
+                            <path d="M10.3 52.7h43.4c1.3-1.4 2.6-3 3.6-4.6H6.7c1 1.7 2.3 3.2 3.6 4.6" fill="#ed4c5c">
+                            </path>
+                            <path d="M15.9 57.3h32.2c2.1-1.3 3.9-2.9 5.6-4.6H10.3c1.7 1.8 3.6 3.3 5.6 4.6"
+                                fill="#ffffff"> </path>
+                            <path d="M32 62c5.9 0 11.4-1.7 16.1-4.7H15.9c4.7 3 10.2 4.7 16.1 4.7" fill="#ed4c5c">
+                            </path>
+                            <path
+                                d="M16 6.6c-2.1 1.3-4 2.9-5.7 4.6c-1.4 1.4-2.6 3-3.6 4.6c-.9 1.5-1.8 3-2.4 4.6c-.6 1.5-1.1 3-1.5 4.6c-.4 1.5-.6 3-.7 4.6c-.1.8-.1 1.6-.1 2.4h30V2c-5.9 0-11.3 1.7-16 4.6"
+                                fill="#428bc1"> </path>
+                            <g fill="#ffffff">
+                                <path d="M25 3l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M29 9l.5 1.5H31l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M21 9l.5 1.5H23l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M25 15l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M17 15l.5 1.5H19l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M9 15l.5 1.5H11l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M29 21l.5 1.5H31l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M21 21l.5 1.5H23l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M13 21l.5 1.5H15l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M25 27l.5 1.5H27l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M17 27l.5 1.5H19l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M9 27l.5 1.5H11l-1.2 1l.4 1.5l-1.2-.9l-1.2.9l.4-1.5l-1.2-1h1.5z"> </path>
+                                <path d="M11.8 13l1.2-.9l1.2.9l-.5-1.5l1.2-1h-1.5L13 9l-.5 1.5h-1.4l1.2.9l-.5 1.6">
+                                </path>
+                                <path
+                                    d="M3.8 25l1.2-.9l1.2.9l-.5-1.5l1.2-1H5.5L5 21l-.5 1.5h-1c0 .1-.1.2-.1.3l.8.6l-.4 1.6">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+                <button id="language-pt" class="language-btn">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                        class="iconify iconify--emojione" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g fill="#21a210">
+                                <path d="M61.5 26.8C59.1 12.7 46.8 2 32 2S4.9 12.7 2.5 26.8L32 12l29.5 14.8z"> </path>
+                                <path d="M2.5 37.2C4.9 51.3 17.2 62 32 62s27.1-10.7 29.5-24.8L32 52L2.5 37.2z"> </path>
+                            </g>
+                            <path
+                                d="M32 12L2.5 26.8C2.2 28.5 2 30.2 2 32s.2 3.5.5 5.2L32 52l29.5-14.8c.3-1.7.5-3.4.5-5.2s-.2-3.5-.5-5.2L32 12"
+                                fill="#ffe62e"> </path>
+                            <g fill="#0d3e63">
+                                <path
+                                    d="M26 28.4c-3.2 0-6.2.7-8.9 1.9c-.1.6-.1 1.1-.1 1.7c0 8.3 6.7 15 15 15c5.6 0 10.5-3.1 13.1-7.6c-3.7-6.5-10.9-11-19.1-11">
+                                </path>
+                                <path
+                                    d="M46.8 34.4c.1-.8.2-1.6.2-2.4c0-8.3-6.7-15-15-15c-5.9 0-11 3.4-13.5 8.4c2.4-.7 4.9-1.1 7.5-1.1c8.5 0 16 4 20.8 10.1">
+                                </path>
+                            </g>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M26 24.3c-2.6 0-5.1.4-7.5 1.1c-.7 1.5-1.2 3.1-1.4 4.9c2.7-1.2 5.7-1.9 8.9-1.9c8.2 0 15.4 4.4 19.1 10.9c.9-1.5 1.4-3.2 1.7-4.9C42 28.3 34.5 24.3 26 24.3">
+                                </path>
+                                <circle cx="22" cy="32" r="1"> </circle>
+                                <circle cx="26" cy="38" r="1"> </circle>
+                                <circle cx="32" cy="38" r="1"> </circle>
+                                <circle cx="32" cy="42" r="1"> </circle>
+                                <circle cx="40" cy="38" r="1"> </circle>
+                                <circle cx="40" cy="42" r="1"> </circle>
+                                <circle cx="36" cy="40" r="1"> </circle>
+                                <circle cx="22" cy="36" r="1"> </circle>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="header-social-links">
+                <a href="https://github.com/LucasBrennand" target="_blank" class="github"><i class="bi bi-github"
+                        style="color: #62825D;"></i></a>
+                <a href="https://www.instagram.com/lucasbbrennand/" target="_blank" class="instagram"><i
+                        class="bi bi-instagram" style="color: #62825D;"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-brennand-9121b2205/" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin" style="color: #62825D;"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="hero" class="hero section">
+
+            <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Lucas Brennand</h2>
+                        <a href="#about" class="btn-get-started">About Me</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <main class="main">
+
+        <section id="about" class="about section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Sobre</h2>
+                <p style="text-align: justify;">Sou um estudante apaixonado de ciência da computação na Universidade Católica de Pernambuco (UNICAP) com amor pelo design web. Tenho bastante conhecimento em habilidades de programação e estou sempre procurando aprender novas tecnologias e ansioso para aplicar meu conhecimento em projetos do mundo real. Estou animado para colaborar com outros e contribuir com minhas habilidades para projetos empolgantes. Vamos nos conectar! Você pode encontrar minhas informações de contato e links do portfólio abaixo.</p>
+            </div>
+
+
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="../../Images/pepe.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 content">
+                        <h2>Desenvolvedor de Web Full Stack</h2>
+                        <p class="fst-italic py-3">
+                        <h4>Informações:</h4>
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                      <li><i class="bi bi-chevron-right"></i> <strong>Telefone:</strong> <span>+55 (81) 99569-7350</span></li>
+
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>Recife, Brasil</span></li>
+
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+55 (81) 98873-8687</span></li>
+                                 </ul>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>22</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Grau:</strong>
+                                        <span>Bacharelado</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span>lucasbrennand.barbosa@gmail.com</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                        <span>Dísponivel</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="py-3">
+                            Embora meu foco principal seja construir interfaces envolventes, também estou profundamente intrigado pelas possibilidades da inteligência artificial e visão computacional. Acredito que combinar esses campos pode levar a aplicações web verdadeiramente inovadoras.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skills" class="skills section">
+
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Habilidades</h2>
+                  <p>É assim que eu classificaria minha proficiência com essas linguagens de programação</p>
+
+            </div>
+
+
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row skills-content skills-animation">
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="progress">
+                            <span class="skill"><span>CSS</span> <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="progress">
+                            <span class="skill"><span>Python</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>CSS</span> <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="progress">
+                            <span class="skill"><span>Java</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="progress">
+                            <span class="skill"><span>Javascript</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>PHP</span> <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>opencv</span> <i class="val">60%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section id="stats" class="stats section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Fatos</h2>
+                <p>Aqui estão alguns fatos interessantes de minha carreira!</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="52" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Repositorios</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Anos Aprendendo</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Horas de Trabalho</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Linguagens</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <br>
+
+    <main class="main">
+
+        <section id="resume" class="resume section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Curriculo</h2>
+                <p>Todas minhas experiências até agora</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Sumario</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Lucas Brennand Barbosa Chiaperini</h4>
+                            <p><em>Sou um futuro desenvolvedor de UI/UX para Web, sempre fui fascinado por projetar
+                                    sites e agora finalmente tenho as habilidades para fazê-lo.</em></p>
+                            <ul>
+                                <li>Recife, Pernambuco</li>
+                                <li>+55 (81) 99569-7350</li>
+                                <li>lucasbrennand.barbosa@gmail.com</li>
+                            </ul>
+                        </div>
+
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Bacharelado em Ciências da Computação</h4>
+                            <h5>2020 - 2025</h5>
+                            <p><em>Universidade Católica de Pernambuco</em></p>
+                            <p>Estudei ciência da computação na faculdade após me formar no ensino médio, na aula eu
+                                usava principalmente Java, mas decidi seguir uma especialidade mais voltada para front-end</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Experiência Profissional</h3>
+                        <div class="resume-item">
+                            <h4>Estagiário de Desenvolvedor Full Stack</h4>
+                            <h5>2024 - Atual</h5>
+                            <p><em>Elai Soluções, Recife, Pernambuco </em></p>
+                            <ul>
+                                <li>Responsável por construir seções do site do produto IVICI</li>
+                                <li>Parte de uma equipe de 5 pessoas</li>
+                                <li>Auxiliava tanto no front-end quanto no back-end</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Aprendizado de TI</h4>
+                            <h5>2022 - 2023</h5>
+                            <p><em>Notecenterpe, Recife, Pernambuco</em></p>
+                            <ul>
+                                <li>Reparei e realizei manutenção em computadores e laptops</li>
+                                <li>Aprendi sobre arquitetura de computadores</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <main class="main">
+
+        <section id="projects" class="portfolio section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Projetos</h2>
+                <p>Confere meus projetos!</p>
+            </div>
+
+
+            <div class="container">
+
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-2022">2022</li>
+                        <li data-filter=".filter-2023">2023</li>
+                        <li data-filter=".filter-2024">2024</li>
+                    </ul>
+
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <img style="width: 500px; height: 200px;" src="../../Images/rpg.PNG" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>RPG Java</h4>
+                                <p>Meu primeiro projeto, é um jogo de RPG por turnos feito em Java</p>
+                                <a href="https://github.com/LucasBrennand/Projeto-RPG" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="../../Images/database.PNG" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Conexão de Python para SQL</h4>
+                                <p>Projeto SQL onde fiz uma conexão de Python para SQL, e posso executar comandos SQL usando Python</p>
+                                <a href="https://github.com/LucasBrennand/ProjetoBD2" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="../../Images/bg3.PNG" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>BG3 Builds de Companheiros</h4>
+                                <p>Um guia rápido para builds de companheiros em Baldur's Gate 3</p>
+                                <a href="https://lucasbrennand.github.io/BG3CompanionBuilds/" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="../../Images/frontend.PNG" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Curso de Front-End</h4>
+                                <p>Aqui está um curso de Front-End que estou assistindo com mais de 60 horas de conteúdo</p>
+                                <a href="https://github.com/LucasBrennand/Udemy-Frontend-Course.git" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <img style="width: 500px; height: 200px;" src="../../Images/intruder.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Sistema de Vigilância</h4>
+                                <p>Um sistema de vigilância usando visão computacional para rastrear e alertar sobre intrusos em uma área restrita</p>
+                                <a href="https://github.com/LucasBrennand/SuspiciousMovement" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <img style="width: 500px; height: 200px;" src="../../Images/Blackjack.PNG" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Blackjack JS</h4>
+                                <p>Blackjack feito em Javascript</p>
+                                <a href="https://lucasbrennand.github.io/Blackjack/" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <img style="width: 500px; height: 200px;" src="../../Images/weather.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Site de Clima</h4>
+                                <p>Um site simples que fiz que permite pesquisar o clima atual de uma cidade</p>
+                                <p>A simple website I made that let's you search the current weather of a city</p>
+                                <a href="https://projeto-site-qovbr4idu-lucasbrennand.vercel.app" target="_blank"
+                                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <button id="surprise-btn" style="background-color: transparent; border: none;">
+                                <img style="width: 500px; height: 200px;" src="../../Images/pepe.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="portfolio-info">
+                                    <h4>O que isso faz?</h4>
+                                </div>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <main class="main">
+
+
+        <section id="contact" class="contact section">
+
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contato</h2>
+                <p>Quer manter contato comigo?</p>
+            </div>
+
+
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-5">
+
+                        <div class="info-wrap">
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Localização</h3>
+                                    <p>Recife, Pernambuco - Brazil</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Whatsapp</h3>
+                                    <p>+55 (81) 99569-7350</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>lucasbrennand.barbosa@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <form action="https://formspree.io/f/mgvezren" method="post" class="php-email-form"
+                            data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Seu Nome</label>
+                                    <input type="text" name="name" id="name-field" class="form-control" required="">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Seu Email</label>
+                                    <input type="email" class="form-control" name="email" id="email-field" required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Sujeito</label>
+                                    <input type="text" class="form-control" name="subject" id="subject-field"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Mensagem</label>
+                                    <textarea class="form-control" name="message" rows="10" id="message-field"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Carregando</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Sua mensagem foi enviada, obrigado!</div>
+
+                                    <div class="g-recaptcha" data-sitekey="6Ldw84UqAAAAAE8K9A6YhcQChxn-M6OYYBTlcj3n">
+                                    </div>
+                                    <button type="submit">Enviar Mensagem</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer id="footer" class="footer light-background">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Direitos Autorais 2024</span> <strong class="px-1 sitename">Brennand</strong> <span>Todos os Direitos Reservados<br></span></p>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://github.com/LucasBrennand" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/lucasbbrennand/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-brennand-9121b2205/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="credits">
+                Desenvolvido por Lucas Brennand
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate-js/2.0.1/validate.min.js"
+        integrity="sha512-8GLIg5ayTvD6F9ML/cSRMD19nHqaLPWxISikfc5hsMJyX7Pm+IIbHlhBDY2slGisYLBqiVNVll+71CYDD5RBqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"
+        integrity="sha512-Q4MHJkk3u8P63v1aX0I7jvo5AoMFi53HbxUBhURp8x7xrqD+nsHZrbBEQVObpqE+MAAVB/Ye9ZlKkM44a1q9WA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"
+        integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"
+        integrity="sha512-kfs3Dt9u9YcOiIt4rNcPUzdyNNO9sVGQPiZsub7ywg6lRW5KuK1m145ImrFHe3LMWXHndoKo2YRXWy8rnOcSKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script async src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+    </script>
+    <script src="../../script.js"></script>
+
+</body>
+
+</html>
