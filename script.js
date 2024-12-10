@@ -244,6 +244,14 @@
       // Adicione mais mudanças conforme necessário
     });
 
+    
+    document.getElementById('language-en').addEventListener('click', function() {
+      window.location.href = 'lang/pt/index.html';
+    });
+    document.getElementById('language-pt').addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+
   document
     .querySelector(".php-email-form")
     .addEventListener("submit", function (event) {
